@@ -19,5 +19,6 @@
         "USE_BAZEL_VERSION": "5.4.0"
     },
     "remoteUser": "root",
+    "onCreateCommand": "bazel --version",
     "postCreateCommand": "echo 'Dev container setup complete!'"
 }
